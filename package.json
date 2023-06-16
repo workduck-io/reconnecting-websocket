@@ -1,7 +1,7 @@
 {
     "name": "@manchester-fertility-org/reconnecting-websocket",
     "type": "module",
-    "version": "4.4.0",
+    "version": "4.4.1",
     "description": "Reconnecting WebSocket",
     "main": "./dist/reconnecting-websocket-cjs.js",
     "module": "./dist/reconnecting-websocket-mjs.js",

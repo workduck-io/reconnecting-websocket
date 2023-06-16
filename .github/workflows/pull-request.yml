@@ -1,0 +1,21 @@
+name: Pull request
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  publish:
+    name: Build & Publish Package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm test

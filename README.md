@@ -10,6 +10,14 @@ connect.
 
 Please see for more details: https://github.com/pladaria/reconnecting-websocket/issues/165
 
+## Publishing to Github Packages
+
+A Github actions workflow has been created to automatically publish new versions of this package to
+Github Packages. To publish a new version:
+
+- Bump the version number in package.json
+- Run the "Publish Package to GitHub Packages" workflow
+
 ## Features
 
 -   WebSocket API compatible (same interface, Level0 and Level2 event model)
