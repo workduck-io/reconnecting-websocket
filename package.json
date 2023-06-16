@@ -56,15 +56,12 @@
     "directories": {
         "test": "test"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/manchester-fertility-org/reconnecting-websocket.git"
-    },
+    "repository": "https://github.com/manchester-fertility-org/reconnecting-websocket.git",
     "bugs": {
         "url": "https://github.com/manchester-fertility-org/reconnecting-websocket/issues"
     },
     "publishConfig": {
-        "registry": "https://registry.npmjs.org"
+        "registry": "https://npm.pkg.github.com"
     },
     "homepage": "https://github.com/manchester-fertility-org/reconnecting-websocket#readme",
     "lint-staged": {
