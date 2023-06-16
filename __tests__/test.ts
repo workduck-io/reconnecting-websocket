@@ -556,7 +556,7 @@ test('connect, send, receive, reconnect', done => {
 test('immediately-failed connection should not timeout', done => {
     const ws = new ReconnectingWebSocket('ws://255.255.255.255', undefined, {
         maxRetries: 2,
-        connectionTimeout: 500,
+        connectionTimeout: 300,
     });
 
     ws.addEventListener('error', (err: ErrorEvent) => {

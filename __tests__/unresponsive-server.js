@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const net = require('net');
+import * as net from 'net'
 
 const port = process.argv[2] || 50001;
 const sleepTime = process.argv[3] || 4000;
