@@ -1,5 +1,5 @@
 {
-    "name": "reconnecting-websocket",
+    "name": "@manchester-fertility-org/reconnecting-websocket",
     "version": "4.4.0",
     "description": "Reconnecting WebSocket",
     "main": "./dist/reconnecting-websocket-cjs.js",
@@ -58,15 +58,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pladaria/reconnecting-websocket.git"
+        "url": "git+https://github.com/manchester-fertility-org/reconnecting-websocket.git"
     },
     "bugs": {
-        "url": "https://github.com/pladaria/reconnecting-websocket/issues"
+        "url": "https://github.com/manchester-fertility-org/reconnecting-websocket/issues"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
     },
-    "homepage": "https://github.com/pladaria/reconnecting-websocket#readme",
+    "homepage": "https://github.com/manchester-fertility-org/reconnecting-websocket#readme",
     "lint-staged": {
         "linters": {
             "*.{js,md,ts}": [
