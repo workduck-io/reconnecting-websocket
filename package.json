@@ -1,5 +1,5 @@
 {
-    "name": "@manchester-fertility-org/reconnecting-websocket",
+    "name": "@workduck-io/reconnecting-websocket",
     "type": "module",
     "version": "4.4.1",
     "description": "Reconnecting WebSocket",
@@ -57,14 +57,14 @@
     "directories": {
         "test": "test"
     },
-    "repository": "https://github.com/manchester-fertility-org/reconnecting-websocket.git",
+    "repository": "https://github.com/workduck-io/reconnecting-websocket.git",
     "bugs": {
-        "url": "https://github.com/manchester-fertility-org/reconnecting-websocket/issues"
+        "url": "https://github.com/workduck-io/reconnecting-websocket/issues"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com/workduck-io"
     },
-    "homepage": "https://github.com/manchester-fertility-org/reconnecting-websocket#readme",
+    "homepage": "https://github.com/workduck-io/reconnecting-websocket#readme",
     "lint-staged": {
         "linters": {
             "*.{js,md,ts}": [
